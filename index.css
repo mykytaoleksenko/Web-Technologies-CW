@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@font-face {
+    font-family: 'Benzin-Regular', sans-serif;
+    src: url(Benzin-Regular.ttf);
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+p{
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-top{
+    padding-top: 2rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.socials{
+    display: flex;
+    align-items: center;
+    column-gap: 0,8rem;
+}
+
+.youtube{
+    margin-left: 0.8rem;
+}
+
+.facebook{
+    margin-left: 0.8rem;
+}
+
+.line {
+
+    display: block;
+    border-bottom: 1px solid #CEA750; /* change this to the color and thickness you want */
+    opacity: 30%;
+
+}
+
+.logo{
+    margin-left: -6rem;
+}
+  
+.nav-bottom{
+    padding-top: 2rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 3rem;
+}
+
+.button_header{
+    width: 10rem;
+    height: 3.2rem;
+    color: white;
+    background-color: #CEA750;
+    border-radius: 3px;
+    border: 0;
+    font-size: 1.33rem;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.3s;
+}
+
+.button_header:hover {
+    background-color: white;
+    color: #CEA750;
+  }
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.next_block {
+    padding-top: 6.66rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-bottom: 6.66rem;
+    background-color: white;
+    justify-content: center;
+}
+
+.menu_type {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttons_2block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2rem;
+    margin-bottom: 5.8rem;
+    margin-top: 3.33rem;
+}
+
+h1 {
+    font-size: 6.976rem;
+    text-align: center;
+}
+
+.zori {
+    color: #CEA750;
+    text-transform: uppercase;
+}
+
+.button_2block_1 {
+    background-color: black;
+    color: white;
+    width: 17.33rem;
+    height: 4.53rem;
+    font-size: 1.6rem;
+    border-radius: 3px;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.3s;
+}
+
+.button_2block_2 {
+    background-color: black;
+    color: white;
+    width: 20.93rem;
+    height: 4.53rem;
+    font-size: 1.6rem;
+    border-radius: 3px;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.3s;
+}
+
+.button_2block_1:hover {
+    background-color: #CEA750;
+    color: white;
+  }
+
+  .button_2block_2:hover {
+    background-color: #CEA750;
+    color: white;
+  }
+
+.menu_type_div {
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    text-align: center;
+    width: 32%;
+    height: 32%;
+}
+
+.menu_type_name {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center; /** Y-axis align **/
+    justify-content: center; /** X-axis align **/
+    font-family: 'Benzin-Regular', sans-serif;
+    font-size: 3.2rem;
+}
+
+
+.mothers_day_div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: -1.5rem;
+}
+
+h2 {
+    font-size: 2.66rem;
+    text-align: center;
+    color: white;
+}
+
+.texts_btn_mothers_day_div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+
+.mothers_day_p {
+    text-align: center;
+    width: 22.86rem;
+    font-size: 1.2rem;
+    margin-top: -1rem;
+}
+
+.button_3block_1 {
+    background-color: transparent;
+    border: 1px solid #CEA750;
+    color: white;
+    width: 13.8rem;
+    height: 3.53rem;
+    font-size: 1.6rem;
+    border-radius: 3px;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.3s;
+    margin-top: 3rem;
+}
+
+.button_3block_1:hover {
+    background-color: #CEA750;
+  }
+
+.line_2 {
+    display: block;
+    border-bottom: 1px solid #CEA750; /* change this to the color and thickness you want */
+    opacity: 30%;
+
+}
+
+  .art_within_mixology_div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: -1.5rem;
+}
+
+.art_within_mixology_p {
+    text-align: center;
+    width: 26rem;
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+    margin-top: -1rem;
+}
+
+.mothers_day_ph {
+    width: 50%;
+}
+
+.art_within_mixology_ph {
+    width: 50%;
+}
+
+.button_3block_2 {
+    background-color: transparent;
+    border: 1px solid #CEA750;
+    color: white;
+    width: 13.8rem;
+    height: 3.53rem;
+    font-size: 1.6rem;
+    border-radius: 3px;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.3s;
+}
+
+.button_3block_2:hover {
+    background-color: #CEA750;
+  }
+
+.texts_btn_art_within_mixology_div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+
+.footer {
+    padding-top: 10rem;
+    padding-bottom: 12rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo_footer {
+    width: 10.75rem;
+    margin-bottom: 2.66rem;
+}
+
+.footer_links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 0.66rem;
+}
+
+.footer_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 12rem;
+    margin-right: 6rem;
+}
+
+.footer_adress {
+    margin-top: 0.66rem;
+}
+
+.button_footer {
+    margin-top: 2rem;
+    width: 15.66rem;
+    height: 3.53rem;
+    background-color: transparent;
+    border: 1px solid #CEA750;
+    color: white;
+    font-size: 1.6rem;
+    border-radius: 3px;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.3s;
+}
+
+.button_footer:hover {
+    background-color: #CEA750;
+  }
+
+.google-map {
+    border-radius: 3px;
+}
