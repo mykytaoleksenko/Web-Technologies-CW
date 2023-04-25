@@ -4,12 +4,135 @@
     src: url(Benzin-Regular.ttf);
 }
 
+@media all and (max-width: 600px) {
+    body
+    {
+        width: 100%;
+    }
+    .header .nav-top {
+        padding: 0;
+    }
+    .nav-top .logo
+    {
+        position: relative;
+        width: 40vw;
+        margin: 0 auto;
+    }
+    .nav-top .socials
+    {
+        display: none;
+    }
+    .nav-top .header-adress {
+        display: none;
+    }
+    body .nav-bottom {
+        display: none;
+        padding-top: 0;
+        padding-left: 0;
+        padding-bottom: 0;
+        padding-right: 0;
+    }
+    .nav-bottom .nav-links {
+        display: none;
+    }
+    .nav-bottom .button_header {
+        display: none;
+    }
+    body .main-img-1block-mob {
+        display: block;
+        width: 100vw;
+        object-fit: cover;
+    }
+    body .main-img-1block {
+        display: none;
+    }
+    body .next_block {
+        padding: 3rem;
+    }
+    body h1 {
+        font-size: 3.5rem;
+        margin: 0;
+    }
+    .next_block .buttons_2block {
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+        align-items: center;
+        margin-bottom: 4rem;
+    }
+    .next_block .menu_type {
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+        align-items: center;
+        height: auto;
+    }
+    .menu_type .menu_type_div {
+        width: 90vw;
+        height: 90vw;
+    }
+    .menu_type_div .menu_type_ph {
+        width: 90vw;
+        height: 90vw;
+    }
+    .third_block .mothers_day_div {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 3rem;
+    }
+    .mothers_day_div .mothers_day_ph {
+        width: 100%;
+    }
+    .texts_btn_mothers_day_div .h2{
+        width: auto;
+    }
+    .third_block .art_within_mixology_div {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5rem;
+        margin-bottom: -1.33rem;
+    }
+    .art_within_mixology_div .art_within_mixology_ph {
+        width: 100%;
+        margin-top: 3rem;
+    }
+    .art_within_mixology_div .texts_btn_art_within_mixology_div {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .texts_btn_art_within_mixology_div .art_within_mixology_p {
+        text-align: center;
+        width: 23rem;
+        font-size: 1.2rem;
+        margin-bottom: 3rem;
+        margin-top: -1rem;
+    }
+    body .footer {
+        display: block;
+        padding: 0;
+        padding-left: 1.33rem;
+        padding-right: 1.33rem;
+    }
+    .footer_info_main .footer_info {
+        display: block;
+    }
+    .footer .google-map {
+        width: 100%;
+        height: auto;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .footer .footer_info_main {
+        padding-top: 5rem;
+    }
+}
 html{
     box-sizing: border-box;
     font-size: 15px;
 }
 
 body{
+    width: 100%;
     font-family: 'Roboto', sans-serif;
     background-color: black;
     margin: 0;
@@ -91,6 +214,10 @@ p{
     background-color: white;
     color: #CEA750;
   }
+
+.main-img-1block-mob {
+    display: none;
+}
 
 img {
     width: 100%;
@@ -343,4 +470,5 @@ h2 {
 
 .google-map {
     border-radius: 3px;
+    width: 40rem;
 }
